@@ -33,3 +33,4 @@ The system is divided into two packages:
 ## Useful resources
 
 [https://www.python.org/doc/](https://www.python.org/doc/)\
+[https://wiki.python.org/moin/BeginnersGuide](https://wiki.python.org/moin/BeginnersGuide)\
