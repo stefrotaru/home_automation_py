@@ -7,15 +7,22 @@ This project is part of the 'Computational Thinking' book written by Karl Beeche
 This project in its finished state aims to be a computer-controlled home automation system. The system should control the following parts of the house:
     - Ventilation (regulate moisture content in the air, which should never exceed 70%)
     - Heating (regulate room temperature to be between 18-22 degrees celsius)
-    - Lighting (turn on/off room lightning wether the room is occupied or not)
+    - Lighting (turn on/off room lighting wether the room is occupied or not)
     - Control panel (control for the automation system)
 
 ## Table of contents
 
+- [System structure](#System-structure)
 - [Installation](#installation)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Useful resources](#useful-resources)
+
+## System structure
+
+The system is divided into two packages:
+    - core: the central parts of the home automation system.
+    - subsystems: the different subsystems that make up a home automation system.
 
 ## Installation
 
