@@ -2,8 +2,8 @@ class Regulator:
     def __init__(self, rule):
         # becomes a specific type depending on the rule (e.g. Ventilator, Radiator, Light)
         self.rule = rule
-        self.sensors[room_id] = dict()
-        self.components[room_id] = dict()
+        self.sensors = dict()
+        self.components = dict()
 
     def add_room(self, room_id, sensor, component):
         self.sensors[room_id] = sensor

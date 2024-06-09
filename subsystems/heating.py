@@ -9,7 +9,7 @@ class TemperatureRule(Rule):
     def apply(self, reading, radiator):
         if reading < 18:
             radiator.switch_on()
-        elif rading > 22:
+        elif reading > 22:
             radiator.switch_off()
 
 

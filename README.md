@@ -13,6 +13,7 @@ This project in its finished state aims to be a computer-controlled home automat
 ## Table of contents
 
 - [System structure](#System-structure)
+- [Unit tests](#unit-tests)
 - [Installation](#installation)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
@@ -23,6 +24,10 @@ This project in its finished state aims to be a computer-controlled home automat
 The system is divided into two packages:
     - core: the central parts of the home automation system.
     - subsystems: the different subsystems that make up a home automation system.
+
+## Unit tests
+
+`python -m unittest test/<unittest-file.py>` - runs suite of tests
 
 ## Installation
 
